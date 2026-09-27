@@ -25,5 +25,5 @@
 
 ## Verification Approach
 
-- **Reference model:** RTL blocks are checked against the Phase 1 C++ model, first in simulation (Verilator/cocotb), then on hardware with PC replay.
+- **Reference model:** RTL blocks are checked against the Phase 1 C++ model, first in simulation (GHDL/cocotb), then on hardware with PC replay.
 - **Latency:** The same data set and timestamp method are used for FPGA, PC, and ESP32-C5 comparisons.

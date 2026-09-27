@@ -1,7 +1,10 @@
 # Builds
-esw/build/
-fpga/build/
-esp/esp32c5_dashboard/build/
+esw/build/*
+!esw/build/.gitkeep
+fpga/build/*
+!fpga/build/.gitkeep
+esp/esp32c5_dashboard/build/*
+!esp/esp32c5_dashboard/build/.gitkeep
 esp/esp32c5_dashboard/sdkconfig.old
 
 # Vivado generated files
@@ -13,9 +16,6 @@ esp/esp32c5_dashboard/sdkconfig.old
 *.hw/
 *.ip_user_files/
 *.sim/
-
-# Data
-data/
 
 # Python
 __pycache__/
