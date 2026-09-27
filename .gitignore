@@ -1,0 +1,22 @@
+# Builds
+esw/build/
+fpga/build/
+esp/esp32c5_dashboard/build/
+esp/esp32c5_dashboard/sdkconfig.old
+
+# Vivado generated files
+.Xil/
+*.jou
+*.log
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# Data
+data/
+
+# Python
+__pycache__/
+.venv/
