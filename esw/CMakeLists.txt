@@ -1,6 +1,6 @@
-# complier info
+# project settings
 cmake_minimum_required(VERSION 3.28)
-project(itch_stats LANGUAGES CXX)
+project(tick_to_trade_esw LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
