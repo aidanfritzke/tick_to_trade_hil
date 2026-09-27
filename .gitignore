@@ -17,6 +17,10 @@ esp/esp32c5_dashboard/sdkconfig.old
 *.ip_user_files/
 *.sim/
 
+# Data
+data/*
+!data/.gitkeep
+
 # Python
 __pycache__/
 .venv/
